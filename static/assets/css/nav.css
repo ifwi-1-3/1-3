@@ -15,19 +15,17 @@ img {
 
 .f-nav-container {
    min-width: 5vw;
-   display: none;
-   height: 0vh;
+   min-height: 10vh;
    display: inline;
 }
 
 .f-nav {
-   display: none;
    top: 0;
    letter-spacing: 2px;
    font-size: 22px;
    left: 0;
    right: 0;
-   height: 0vh;
+   min-height: 10vh;
    padding: 0 25px;
    box-sizing: border-box;
    background-color: var(--background-nav);
@@ -48,8 +46,6 @@ img {
 }
 
 .f-nav .icon {
-      display: none;
-
    position: absolute;
    float: left;
    text-transform: uppercase;
